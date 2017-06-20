@@ -1,0 +1,92 @@
+html{
+    background-image: url(../images/aZSazBV-weather-desktop-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2{
+    font-weight: bold;
+}
+a{
+    color: black;
+}
+body{
+    padding: 35px;
+    margin-top: 60px;
+    background-color: rgba(255,255,255,0.0);
+}
+
+table{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.6);
+    font-size: 20px;
+}
+th{
+    font-size: 30px;
+    text-align: center;
+    width: 750px;
+    margin: 6px;
+}
+
+table tbody, table thead{
+    display: block;
+    border-collapse:separate; 
+    border-spacing: 8px;
+}
+
+table tbody{
+    overflow: auto;
+    height: 600px;
+}
+
+td{
+    width: 700px;
+    border-top: 1px solid #ddd;
+    padding 8px;
+}
+
+tbody tr:hover {
+    background: #3C7471;
+    @include opacity(0.5);
+}
+
+footer{
+    height: 50px;
+    margin-top: 60px;
+    text-align: center;
+    padding: 22px 0 32px;
+}
+
+.footer_copyright{
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#titulo{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 34px;
+}
+
+#contacto{
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+
+
+
+
